@@ -245,7 +245,8 @@ body {
   height: 700px;
   left: 5%;
   top: 175px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background: rgb(60 60 60 / 1);
 } .intro-text p {
   padding: 5px 20px;
