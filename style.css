@@ -229,7 +229,6 @@ body {
   height: 1500px;
   width: 100%;
   z-index: 10;
-  display: none;
   z-index: 10;
 } .aboutPage h1 {
   position: relative;
@@ -292,7 +291,6 @@ body {
   height: 1875px;
   width: 100%;
   z-index: 10;
-  display: none;
   z-index: 10;
 } .projectsPage h1 {
   position: relative;
@@ -343,12 +341,10 @@ body {
   width: 100%;
   margin: 0px;
   z-index: 10;
-  display: none;
   position: relative;
   background-color: rgb(50 50 50 / 1);
   width: 100%;
   z-index: 10;
-  display: none;
   z-index: 10;
 } .papersPage h1 {
   position: relative;
@@ -417,7 +413,6 @@ body {
   width: 100%;
   margin: 0px;
   z-index: 10;
-  display: none;
 } .resume-container {
   position: relative;
   background-color: rgb(60 60 60 / 1);
