@@ -1,7 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+<script>
+window.addEventListener('scroll', function() {
+const header = document.querySelector('.transparent-header');
+if (window.scrollY > 0) {
+  header.classList.add('scrolled');
+} else {
+  header.classList.remove('scrolled');
+}
+});
+</script>
+</head>
+<body>
+<!-- HEADER -->
+<div class="transparent-header">
+  <p class="logo">EAS</p>
+  <nav>
+    <a class="resumeTab active" href="../resume/">Resume</a>
+    <a class="papersTab" href="../papers/">Papers</a>
+    <a class="projectsTab" href="../projects/">Projects</a>
+    <a class="aboutTab" href="../about/">About</a>
+    <a class="homeTab" href="../">Home</a>
+  </nav>
+</div>
+  
 <!-- RESUME -->
 <div class="resumePage">
   <h1>Resume</h1>
   <div class="resume-container">
-    <img src="./index_files/resume.png" alt="resume" class="resume-image">
+    <img src="../index_files/resume.png" alt="resume" class="resume-image">
   </div>
 </div>
+
+<!-- FOOTER -->
+<div class="footer-container">
+  <img class="footer-image" src="../index_files/footer-image.png" alt="Neyland Stadium VOLS Sign">
+  <div class="footer-contact">
+    <p>Email | esharp10@vols.utk.edu<br>Phone Number | (865) 742-5546</p>
+  </div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/ethanasharp/" target="_blank">LinkedIn</a>
+    <br>
+    <a href="https://app.joinhandshake.com/profiles/pcf7jz" target="_blank">Handshake</a>
+  </div>
+</div>
+</body>
+</html>
