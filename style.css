@@ -251,7 +251,7 @@ body {
 } .intro-text p {
   padding: 5px 20px;
   margin: 0;
-  font-size: clamp(12px, 1.2vw, 100px);
+  font-size: clamp(12px, 1.2vw, 80px);
 } .tab {
   display: inline-block; 
   margin-left: 30px; 
