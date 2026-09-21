@@ -1,3 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+<script>
+window.addEventListener('scroll', function() {
+const header = document.querySelector('.transparent-header');
+if (window.scrollY > 0) {
+  header.classList.add('scrolled');
+} else {
+  header.classList.remove('scrolled');
+}
+});
+</script>
+</head>
+<body>
+<!-- HEADER -->
+<div class="transparent-header">
+  <p class="logo">EAS</p>
+  <nav>
+    <a class="homeTab" href="../">Home</a>
+    <a class="aboutTab active" href="../about/">About</a>
+    <a class="projectsTab" href="../projects/">Projects</a>
+    <a class="papersTab" href="../papers/">Papers</a>
+    <a class="resumeTab" href="../resume/">Resume</a>
+  </nav>
+</div>
+  
 <!-- ABOUT -->
 <div class="aboutPage">
   <h1>About Me</h1>
@@ -8,11 +38,26 @@
     <p><span class="tab"></span>In the summer of 2026, I had the opportunity to work alongside Dr. Paul Dalhaimer, a professor in the chemical and biomolecular engineering department at the University of Tennessee, in his <a href="https://pdalhaim.wixsite.com/website" target="_blank">research lab</a>. His research focused on a very similar subject to the one I had been previously pursuing: drug delivery utilizing nanoparticles in the human body. Specifically, he was studying the role geometric shape plays in drug delivery by comparing spherical and cylindrical PEG-PLGA nanoparticles. In this experience, I was able to learn a variety of skills, including starting and maintaining cell cultures, designing and performing cell culture experimentation, running Western blot tests, collecting cell samples, infrared imaging, microscopy imaging, and sterile procedures while utilizing a biosafety cabinet.</p>
   </div>
   <div class="intro-image-container">
-    <img class="intro-image" src="./index_files/intro-image.png" alt="Image of Me">
+    <img class="intro-image" src="../index_files/intro-image.png" alt="Image of Me">
   </div>
   <div class="image-collage-container">
-    <img src="./index_files/collage-picture1.png" style="float:left;" alt="Image of Me">
-    <img src="./index_files/collage-picture2.png" alt="Image of Me">
-    <img src="./index_files/collage-picture3.png" style="float:right;" alt="Image of Me">
+    <img src="../index_files/collage-picture1.png" style="float:left;" alt="Image of Me">
+    <img src="../index_files/collage-picture2.png" alt="Image of Me">
+    <img src="../index_files/collage-picture3.png" style="float:right;" alt="Image of Me">
   </div>
 </div>
+  
+<!-- FOOTER -->
+<div class="footer-container">
+  <img class="footer-image" src="../index_files/footer-image.png" alt="Neyland Stadium VOLS Sign">
+  <div class="footer-contact">
+    <p>Email | esharp10@vols.utk.edu<br>Phone Number | (865) 742-5546</p>
+  </div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/ethanasharp/" target="_blank">LinkedIn</a>
+    <br>
+    <a href="https://app.joinhandshake.com/profiles/pcf7jz" target="_blank">Handshake</a>
+  </div>
+</div>
+</body>
+</html>
